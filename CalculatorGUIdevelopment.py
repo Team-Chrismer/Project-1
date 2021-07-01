@@ -27,6 +27,7 @@ def backspace():
 	expression = expression[:-1]
 	equation.set(expression)
 
+	
 if __name__ == "__main__":
 	gui = Tk()
 	gui.configure(background="light blue")
