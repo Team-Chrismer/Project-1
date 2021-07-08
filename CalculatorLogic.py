@@ -70,5 +70,4 @@ Decimal = Button(gui, text='.', font="lucida 10 bold",
 command = lambda: input_val('.'), height = 1, width = 7)
 Decimal.grid(row = 5, column = 2, ipady = 4 , ipadx = 2)
 
-# start the GUI
 gui.mainloop()
