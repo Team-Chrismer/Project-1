@@ -8,14 +8,14 @@ def input_val(num):
 	equation.set(expression)
   
 def equalpress():
-  try:
-	global expression
-	total = str(eval(expression))
-	equation.set(total)
-	expression = ""
-  except:
-	equation.set(" error ") 
-	expression = ""
+	try:
+		global expression
+		total = str(eval(expression))
+		equation.set(total)
+		expression = ""
+	except:
+		equation.set(" error ") 
+		expression = ""
     
 def clear():
 	global expression
